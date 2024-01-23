@@ -322,6 +322,21 @@ div h4 {
   opacity: 1;
 }
 
+/* FAQs */
+.faq h4 span {
+  color: var(--primary-color);
+  font-size: 1.875rem;
+  margin-right: 0.3125rem;
+}
+.book-food {
+  width: 100%;
+  background: url("assets/bg/bg-3.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 71.9125px;
+  padding: 4.375rem 0;
+}
+
 /*=================================== Responsive Design ============================================*/
 
 @media (max-width: 1024px) {
