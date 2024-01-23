@@ -337,11 +337,54 @@ div h4 {
   padding: 4.375rem 0;
 }
 
-/*=================================== Responsive Design ============================================*/
-
-@media (max-width: 1024px) {
-  /* about section */
+.book-food-text h2 {
+  color: var(--white-color);
 }
+
+/* Form Control */
+.newsletter {
+  width: 55%;
+  margin: 0 auto;
+}
+.newsletter .form-control {
+  height: 2.7rem;
+  padding: 0 1.25rem;
+  font-size: 0.875rem;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  border: 0.187rem solid var(--grey-color);
+  color: var(--black-color);
+  font-weight: 700;
+}
+
+.newsletter .form-control:hover,
+.newsletter .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border: 3px solid var(--primary-color);
+}
+
+/* Footer */
+.footer {
+  background: var(--primary-color);
+}
+.footer .footer-link {
+  font-size: 1rem;
+  color: var(--white-color);
+  padding: 0 1.875rem;
+}
+.footer .footer-link:hover {
+  color: var(--white-color) !important;
+}
+.footer a i {
+  font-size: 1.5rem;
+  color: var(--white-color);
+  padding: 0 1rem;
+}
+
+/*=================================== Responsive Design ============================================*/
 
 @media (max-width: 991px) {
   /*custom classes  */
@@ -393,6 +436,19 @@ div h4 {
   /* carousel design */
   .testimonial-section .carousel-item {
     padding: 11rem 3.125rem;
+  }
+  /* newslettar */
+  .newsletter {
+    width: 75%;
+  }
+  .newsletter .main-button {
+    margin-top: 1rem;
+    width: 95.5%;
+  }
+  /* footer link */
+  .footer .footer-link,
+  .footer a i {
+    padding: 0 0.7rem;
   }
 }
 
